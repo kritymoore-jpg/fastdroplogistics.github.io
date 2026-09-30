@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>FAST DROP LOGISTICS | Fast. Safe. Delivered.</title>
+
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+margin:0;
+font-family:Arial,Helvetica,sans-serif;
+color:#0b1220;
+line-height:1.6;
+background:#fff
+}
+header{
+height:70px;
+display:flex;
+align-items:center;
+gap:25px;
+padding:0 6%;
+border-bottom:1px solid #e5e7eb;
+position:sticky;
+top:0;
+background:white;
+z-index:10
+}
+.logo{
+font-size:18px;
+font-weight:800;
+white-space:nowrap
+}
+.logo span{
+background:#ff6a00;
+color:white;
+padding:8px;
+border-radius:8px;
+margin-right:8px
+}
+nav{
+margin-left:auto;
+display:flex;
+gap:20px
+}
+nav a{
+text-decoration:none;
+color:#111827;
+font-weight:600
+}
+.button{
+display:inline-block;
+background:#ff6a00;
+color:white;
+padding:13px 20px;
+border-radius:10px;
+text-decoration:none;
+font-weight:700;
+border:0;
+cursor:pointer
+}
+.hero{
+padding:90px 7%;
+display:grid;
+grid-template-columns:1.1fr .9fr;
+gap:50px;
+align-items:center;
+background:#f7f9fc
+}
+.small-title{
+color:#ff6a00;
+font-size:12px;
+font-weight:800;
+letter-spacing:2px
+}
+h1{
+font-size:clamp(44px,6vw,75px);
+line-height:1.05;
+margin:15px 0
+}
+h1 span{color:#ff6a00}
+.hero p{
+font-size:18px;
+color:#64748b;
+max-width:650px
+}
+.actions{
+display:flex;
+gap:12px;
+margin-top:25px
+}
+.card{
+background:white;
+padding:30px;
+border-radius:20px;
+box-shadow:0 20px 60px #00000018;
+border:1px solid #e5e7eb
+}
+.status{
+color:#16a34a;
+font-weight:bold
+}
+.route{
+padding:20px 0;
+border-bottom:1px solid #eee
+}
+.route b,.route small{
+display:block
+}
+.route small{
+color:#64748b;
+font-size:11px
+}
+section{
+padding:80px 7%
+}
+h2{
+font-size:40px;
+line-height:1.1
+}
+.gray{
+background:#f6f8fb
+}
+.services{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px
+}
+.service{
+padding:30px;
+border:1px solid #e5e7eb;
+border-radius:18px
+}
+.icon{
+font-size:40px
+}
+.service h3{
+font-size:23px
+}
+.service p{
+color:#64748b
+}
+.service a{
+color:#ff6a00;
+font-weight:bold;
+text-decoration:none
+}
+.dark{
+background:#09111f;
+color:white
+}
+.dark p{
+color:#b6c0cf
+}
+.tracking{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:60px;
+align-items:center
+}
+.track-box,.form{
+background:white;
+color:#111827;
+padding:28px;
+border-radius:18px
+}
+input,select,textarea{
+width:100%;
+padding:13px;
+margin:7px 0 15px;
+border:1px solid #d1d5db;
+border-radius:9px;
+font-size:15px
+}
+.form button{
+width:100%
+}
+.reviews{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px
+}
+.review{
+background:white;
+padding:25px;
+border:1px solid #e5e7eb;
+border-radius:18px
+}
+.stars{
+color:#ff6a00;
+font-size:20px
+}
+.contact{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:50px
+}
+.contact-info{
+font-size:17px
+}
+.contact-info strong{
+display:block;
+margin-top:15px
+}
+footer{
+background:#060c16;
+color:white;
+padding:50px 7%
+}
+footer p,footer a{
+color:#aeb8c7
+}
+footer a{
+display:block;
+text-decoration:none;
+margin:8px 0
+}
+.chat{
+position:fixed;
+right:20px;
+bottom:20px;
+width:58px;
+height:58px;
+border-radius:50%;
+background:#25d366;
+color:white;
+display:grid;
+place-items:center;
+font-size:28px;
+text-decoration:none
+}
+@media(max-width:800px){
+header{padding:0 4%}
+nav{display:none}
+.hero{
+grid-template-columns:1fr;
+padding:60px 6%
+}
+section{padding:60px 6%}
+.services,.reviews,.tracking,.contact{
+grid-template-columns:1fr
+}
+.actions{
+flex-direction:column
+}
+.actions .button{
+text-align:center
+}
+h1{font-size:48px}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">
+<span>FD</span> FAST DROP LOGISTICS
+</div>
+
+<nav>
+<a href="#services">Services</a>
+<a href="#tracking">Track</a>
+<a href="#quote">Get a Quote</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<a class="button" href="https://wa.me/16159452136" target="_blank">
+WhatsApp
+</a>
+</header>
+
+<section class="hero">
+
+<div>
+<div class="small-title">
+RELIABLE DELIVERY • CAR • PET • GENERAL
+</div>
+
+<h1>
+Fast drop-offs.<br>
+<span>Real peace of mind.</span>
+</h1>
+
+<p>
+FAST DROP LOGISTICS provides convenient transportation and delivery solutions for vehicles, pets, packages and other approved items, with clear communication from pickup to arrival.
+</p>
+
+<div class="actions">
+<a class="button" href="#quote">Request Delivery</a>
+<a class="button" href="#tracking" style="background:white;color:#111;border:1px solid #ddd">
+Track a Delivery
+</a>
+</div>
+</div>
+
+<div class="card">
+<h3>🚚 DELIVERY DESK</h3>
+
+<p class="status">● ONLINE</p>
+
+<div class="route">
+<small>PICKUP</small>
+<b>Your pickup location</b>
+</div>
+
+<div class="route">
+<small>DROP-OFF</small>
+<b>Your destination</b>
+</div>
+
+<p>
+Get a delivery estimate by contacting FAST DROP LOGISTICS.
+</p>
+</div>
+
+</section>
+
+<section id="services">
+
+<div class="small-title">OUR SERVICES</div>
+<h2>One delivery partner, multiple needs.</h2>
+
+<div class="services">
+
+<div class="service">
+<div class="icon">🚗</div>
+<h3>Car Delivery</h3>
+<p>
+Vehicle relocation and delivery coordination with pickup, destination and delivery-status communication.
+</p>
+<a href="#quote">Request service →</a>
+</div>
+
+<div class="service">
+<div class="icon">🐾</div>
+<h3>Pet Delivery</h3>
+<p>
+Pet transportation coordination designed around safe handling, clear communication and responsible handoffs.
+</p>
+<a href="#quote">Request service →</a>
+</div>
+
+<div class="service">
+<div class="icon">📦</div>
+<h3>General Delivery</h3>
+<p>
+Packages, documents and other approved items delivered with straightforward status updates.
+</p>
+<a href="#quote">Request service →</a>
+</div>
+
+</div>
+</section>
+
+<section id="tracking" class="dark">
+
+<div class="tracking">
+
+<div>
+<div class="small-title">DELIVERY TRACKING</div>
+
+<h2>Check your delivery status.</h2>
+
+<p>
+Enter the tracking number supplied by FAST DROP LOGISTICS.
+</p>
+
+<p>
+Example tracking number:
+<strong>FDL-2026-000001</strong>
+</p>
+</div>
+
+<div class="track-box">
+
+<label>
+Tracking Number
+<input id="trackingNumber" placeholder="FDL-2026-000001">
+</label>
+
+<button class="button" onclick="trackPackage()">
+Check Status
+</button>
+
+<p id="trackingResult"></p>
+
+</div>
+
+</div>
+</section>
+
+<section id="quote" class="gray">
+
+<div class="contact">
+
+<div>
+
+<div class="small-title">REQUEST A QUOTE</div>
+
+<h2>Tell us what needs to move.</h2>
+
+<p>
+Submit your delivery information and contact us through WhatsApp for assistance.
+</p>
+
+<div class="contact-info">
+
+<strong>Phone</strong>
++1 308-257-3323
+
+<strong>WhatsApp</strong>
++1 615-945-2136
+
+<strong>Email</strong>
+fastdropfastdroplogistics@gmail.com
+
+</div>
+
+</div>
+
+<form class="form" onsubmit="sendQuote(event)">
+
+<input id="name" placeholder="Full name" required>
+
+<input id="phone" placeholder="Phone / WhatsApp" required>
+
+<select id="service" required>
+<option value="">Select service</option>
+<option>Car Delivery</option>
+<option>Pet Delivery</option>
+<option>General Delivery</option>
+</select>
+
+<input id="pickup" placeholder="Pickup location" required>
+
+<input id="dropoff" placeholder="Drop-off location" required>
+
+<textarea id="details" rows="4" placeholder="Item / vehicle / pet details"></textarea>
+
+<button class="button" type="submit">
+Send Request
+</button>
+
+</form>
+
+</div>
+</section>
+
+<section>
+
+<div class="small-title">CUSTOMER FEEDBACK</div>
+
+<h2>Customer Experiences</h2>
+
+<div class="reviews">
+
+<div class="review">
+<div class="stars">★★★★★</div>
+<p>
+Verified customer testimonial will appear here.
+</p>
+<strong>Verified Customer</strong>
+</div>
+
+<div class="review">
+<div class="stars">★★★★★</div>
+<p>
+Verified customer testimonial will appear here.
+</p>
+<strong>Verified Customer</strong>
+</div>
+
+<div class="review">
+<div class="stars">★★★★★</div>
+<p>
+Verified customer testimonial will appear here.
+</p>
+<strong>Verified Customer</strong>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact" class="dark">
+
+<div class="small-title">CONTACT US</div>
+
+<h2>FAST DROP LOGISTICS</h2>
+
+<p>
+Fast. Safe. Delivered.
+</p>
+
+<p>
+📞 Phone: +1 308-257-3323
+</p>
+
+<p>
+💬 WhatsApp: +1 615-945-2136
+</p>
+
+<p>
+📧 Email: fastdropfastdroplogistics@gmail.com
+</p>
+
+<a class="button" href="https://wa.me/16159452136" target="_blank">
+Chat With Us on WhatsApp
+</a>
+
+</section>
+
+<footer>
+
+<h3>FAST DROP LOGISTICS</h3>
+
+<p>
+Car • Pet • General Delivery
+</p>
+
+<p>
+© 2026 FAST DROP LOGISTICS. All rights reserved.
+</p>
+
+</footer>
+
+<a class="chat"
+href="https://wa.me/16159452136?text=Hello%20FAST%20DROP%20LOGISTICS%2C%20I%20need%20help%20with%20a%20delivery."
+target="_blank">
+💬
+</a>
+
+<script>
+
+function trackPackage(){
+
+let number=document.getElementById("trackingNumber").value.trim();
+
+let result=document.getElementById("trackingResult");
+
+if(!/^FDL-\d{4}-\d{6}$/i.test(number)){
+
+result.innerHTML=
+"Please enter a tracking number such as FDL-2026-000001.";
+
+return;
+}
+
+result.innerHTML=
+"Tracking number "+number.toUpperCase()+
+" received. Live shipment information will appear here when the tracking system is connected.";
+
+}
+
+function sendQuote(event){
+
+event.preventDefault();
+
+let name=document.getElementById("name").value;
+
+let phone=document.getElementById("phone").value;
+
+let service=document.getElementById("service").value;
+
+let pickup=document.getElementById("pickup").value;
+
+let dropoff=document.getElementById("dropoff").value;
+
+let details=document.getElementById("details").value;
+
+let message=
+"Hello FAST DROP LOGISTICS, I would like a delivery quote.%0A%0A"+
+"Name: "+encodeURIComponent(name)+
+"%0APhone: "+encodeURIComponent(phone)+
+"%0AService: "+encodeURIComponent(service)+
+"%0APickup: "+encodeURIComponent(pickup)+
+"%0ADrop-off: "+encodeURIComponent(dropoff)+
+"%0ADetails: "+encodeURIComponent(details || "N/A");
+
+window.open(
+"https://wa.me/16159452136?text="+message,
+"_blank"
+);
+
+}
+
+</script>
+
+</body>
+</html>
